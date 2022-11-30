@@ -18,3 +18,17 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+
+
+// things i need on the read me 
+// title of project
+// description 
+// tabel of contents 
+// installation 
+// usage
+// license and badge 
+// contributing 
+// test
+// questions 
+
+//stoped at 2:01 on hw demo recording  
