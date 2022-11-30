@@ -21,12 +21,12 @@ module.exports = generateMarkdown;
 
 
 // things i need on the read me 
-// title of project
-// description 
+// title of project-done
+// description -done
 // tabel of contents 
-// installation 
-// usage
-// license and badge 
+// installation - done
+// usage -done
+// license and badge - done 
 // contributing 
 // test
 // questions 
