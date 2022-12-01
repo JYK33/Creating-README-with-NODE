@@ -1,34 +1,42 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ${data.license ? data.license : ''} 
+  ${data.language ? data.language : ''}
+
+  ## Table of Contents 
+  [Description](#description)<br />
+  [Installation](#installation)<br />
+  [Usage-Information](#usage)<br />
+  [Contribution](#contribution)<br />
+  [Testing-Information](#test)<br />
+  [Questions](#questions)  
+
+  ## Description 
+    ${data.description}
+
+
+  ## Installation Instructions 
+    ${data.installation}
+  
+
+  ## Usage-Information
+    ${data.usage}
+
+
+  ## Contribution
+    ${data.contribution}
+
+
+  ## Testing-Information
+    ${data.test}
+    
+    
+  ## Questions 
+    Email: ${data.email}
+    GitHub: https://github.com/${data.github}  
 `;
 }
 
 module.exports = generateMarkdown;
-
-
-// things i need on the read me 
-// title of project-done
-// description -done
-// tabel of contents 
-// installation - done
-// usage -done
-// license and badge - done 
-// contributing 
-// test
-// questions 
-
-//stoped at 2:01 on hw demo recording  
